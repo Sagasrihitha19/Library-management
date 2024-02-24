@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library management</title>
+  <style>
+    body{
+        background-image: url('library.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+
+        
+    }
+    .image{
+        height: 100%;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+        
+
+
+    }
+    .button{
+        background-color: rgb(236, 237, 241);
+        border-radius: 40px;
+        border: none;
+        padding: 50px 50px;
+        border-radius: 30px;
+        cursor: pointer;
+        text-align: center;
+        margin-bottom: 200px;
+        font-size: x-large;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         
+        
+
+    }
+    .button1{
+        background-color: rgb(231, 235, 234);
+        border-radius: 40px;
+        border: none;
+        padding: 50px 50px;
+        border-radius: 30px;
+        cursor: pointer;
+        text-align: center;
+        font-size: x-large;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+
+    
+    
+  </style>
+   
+
+</header>
+<body>
+    <div class="container">
+        <button class="button" onclick="redirectToPage()">User </button>
+        <button class="button1" onclick="redirectToPage1()">Admin</button>
+    </div>
+    
+        
+    </div>
+    
+    
+<script>
+    function redirectToPage(){
+        window.location.href = 'library_login.html'; 
+    }
+     function redirectToPage1(){
+         window.location.href = 'adminlogin1.html'; 
+    }
+
+    
+</script>
+</body>
+
+</html>

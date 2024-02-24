@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#filters {
+    margin-bottom: 20px;
+}
+
+#filters input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#bookList {
+    margin-bottom: 20px;
+}
+
+.book-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination-btn {
+    cursor: pointer;
+    margin: 0 5px;
+}
